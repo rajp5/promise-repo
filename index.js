@@ -32,4 +32,4 @@ getUser(1)
     .then((repos)=> getCommits(repos[0]))
     .then((commits)=>console.log(commits));
 
-    console.log('End');
+console.log('End');
